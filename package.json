@@ -2,11 +2,13 @@
   "name": "nova-cloud-api",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "supabase": "^1.143.6",
+    "@supabase/supabase-js": "^2.45.1",
+    "dotenv": "^16.4.5"
   }
 }
